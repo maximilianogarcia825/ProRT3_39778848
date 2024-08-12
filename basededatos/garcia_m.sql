@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-07-2024 a las 03:17:09
+-- Tiempo de generación: 12-08-2024 a las 02:01:45
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -66,7 +66,8 @@ INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `usuario`, `email`, 
 (2, 'max', 'delgado', 'max', 'delgado@gmail.com', '$2y$10$VJVOgFpO9peojMkxLTFmI.TayzXFQDQxHBW9ID5NB1NdGR6TgWv6a', 1, 'NO'),
 (3, 'facundo', 'almaraz', 'facu', 'facu@gmail.com', '$2y$10$VqMSmEpxIdKPA9eLuoesB.5s4mzDbllWP7nC6XkwH5PTqo/RDXURm', 1, 'NO'),
 (4, 'Matias', 'Martinez', 'mati', 'mati@gmail.com', '$2y$10$4XDogQLu1.nj7Cad..KWAubjl2m3kBHumeBnXe3jftpKwPKYQDUAq', 2, 'NO'),
-(5, 'agus', 'rodrigo', 'Agustina', 'agus@gmail.com', '$2y$10$0RGsekGrmFp3oz.Mb2rD6.SBcDqazmytkStmAyakFUmNbStUzBEPe', 2, 'NO');
+(5, 'agus', 'rodrigo', 'Agustina', 'agus@gmail.com', '$2y$10$0RGsekGrmFp3oz.Mb2rD6.SBcDqazmytkStmAyakFUmNbStUzBEPe', 2, 'NO'),
+(6, 'facundo', 'federer', 'facux', 'facux@gmail.com', '$2y$10$OX5euD9i7PpHiWtk2f3hKe9fGS8Ldf7C98o7cDQm8lCzDvqNrHsyy', 2, 'NO');
 
 --
 -- Índices para tablas volcadas
@@ -98,7 +99,7 @@ ALTER TABLE `perfiles`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
